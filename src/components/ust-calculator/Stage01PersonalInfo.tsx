@@ -171,27 +171,6 @@ export const Stage01PersonalInfo = ({
             Selecione uma organização do Estado de Goiás
           </p>
         </div>
-
-        {/* Summary Card */}
-        <div className="mt-8 p-6 bg-primary/5 border border-primary/20 rounded-lg">
-          <h4 className="font-semibold text-primary mb-3">
-            Resumo das Informações
-          </h4>
-          <div className="space-y-2 text-sm">
-            <p>
-              <span className="font-medium">Nome:</span>{" "}
-              {personalInfo.fullName || "Não informado"}
-            </p>
-            <p>
-              <span className="font-medium">E-mail:</span>{" "}
-              {personalInfo.email || "Não informado"}
-            </p>
-            <p>
-              <span className="font-medium">Organização:</span>{" "}
-              {personalInfo.organization || "Não selecionada"}
-            </p>
-          </div>
-        </div>
       </div>
     </WizardStep>
   );
