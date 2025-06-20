@@ -216,31 +216,6 @@ export const Stage02Configuration = ({
                 </p>
               </div>
             </div>
-
-            {/* Configuration Summary */}
-            <div className="mt-6 p-4 bg-primary/5 border border-primary/20 rounded-lg">
-              <h4 className="font-semibold text-primary mb-3">
-                Resumo da Configuração
-              </h4>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
-                <div>
-                  <span className="font-medium">Valor UST:</span>{" "}
-                  {ustValueFormatted}
-                </div>
-                <div>
-                  <span className="font-medium">Duração:</span>{" "}
-                  {configuration.contractDurationWeeks} semanas
-                </div>
-                <div>
-                  <span className="font-medium">Carga horária:</span>{" "}
-                  {configuration.hoursPerWeek}h/semana
-                </div>
-                <div>
-                  <span className="font-medium">Total de horas:</span>{" "}
-                  {totalHoursContract.toLocaleString("pt-BR")} horas
-                </div>
-              </div>
-            </div>
           </CardContent>
         </Card>
 
