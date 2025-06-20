@@ -104,7 +104,7 @@ export const Stage02Configuration = ({
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Settings className="w-5 h-5 text-primary" />
-              Parâmetros Base
+              Parâmetros Iniciais
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-6">
